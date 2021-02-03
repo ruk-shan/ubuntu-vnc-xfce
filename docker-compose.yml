@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ros_melodic:
+    #build: ./docker_kinetic
+    build: .
+    ports:
+      - 6001:6901
+
